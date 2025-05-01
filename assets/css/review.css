@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.review-box {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.review-box h4 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.review-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.review-box input[type="number"],
+.review-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.review-box input[type="number"]:focus,
+.review-box textarea:focus {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+}
+
+.star-rating {
+    direction: ltr;
+    display: inline-flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 28px;
+    color: #ccc;
+    transition: transform 0.2s;
+}
+
+.star.hovered,
+.star.selected {
+    color: #ffc107;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+.preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .upload {
+    padding: 10px 20px;
+    background-color: #838383;
+    font-size: 14px;
+    max-width: 100px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .upload:hover {
+    background-color: #9d9d9d;
+    transform: translateY(-1px);
+    color:#ffffff;
+  }
+  
+  .missing-rating {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 4px;
+}

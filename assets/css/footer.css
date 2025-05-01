@@ -1,0 +1,96 @@
+footer {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #c4b4ce;
+    font-family: 'Poppins', sans-serif; /* 正文字体 */
+    padding: 50px 30px 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 3cm;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 30px;
+  }
+  
+  .footer-column {
+    flex: 1 1 250px;
+    min-width: 220px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .footer-column:hover {
+    transform: translateY(-5px);
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 12px;
+    border-left: 4px solid #eb99ee;
+    padding-left: 8px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif; /* 标题字体 */
+  }
+  
+  .footer-column p {
+    margin: 6px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-column p:hover {
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  .footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-qr {
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    color: #bdc3c7;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .footer-column a {
+    color: #c4b4ce;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-column a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-wrapper {
+      flex-direction: column;
+      gap: 25px;
+    }
+  
+    .footer-column {
+      min-width: 100%;
+    }
+  }

@@ -1,0 +1,58 @@
+.review-container{
+    margin: 40px auto;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1200px;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.star{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.star a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: #e0e0e0;
+}
+
+.star a:hover {
+    background-color: #606060;
+    color: white;
+}
+
+.star a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #929292;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff9696;
+}
+
+

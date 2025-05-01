@@ -1,0 +1,24 @@
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin: 10px 0;
+}
+
+.size-option {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+}
+
+.size-option input[type="checkbox"] {
+    margin-right: 6px; 
+    transform: scale(1.2);
+}
+
+.size-option:hover {
+    color: #b9b9b9; 
+}
+

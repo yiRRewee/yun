@@ -1,0 +1,110 @@
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.status-filter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status-filter a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: #e0e0e0;
+}
+
+.status-filter a:hover {
+    background-color: #606060;
+    color: white;
+}
+
+.order-history {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.order-history th,
+.order-history td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.order-history th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-history tr:hover {
+    background-color: #f9f9f9ce;
+}
+
+.order-history td a {
+    text-decoration: none;
+    color: #969696;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.order-history td a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.order-header {
+    max-width: 1000px;
+    width: 90%;
+    margin: 1cm auto 1cm auto;
+    position: relative;
+}
+
+.order-header h2 {
+    text-align: center;
+    margin: 0;
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+
+.order-search-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+}
+
+.order-search {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.order-search-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-search-btn:hover {
+    background-color: #333;
+}
