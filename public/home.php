@@ -114,12 +114,12 @@ echo '<br><br><br>';
 <div class="image-grid">
     <div class="grid-item">
         <a href="/user/shop.php?brand=14">
-            <img src="../assets/image/logo/nike-poster.jpg" alt="nike">
+            <img src="https://yunyuns3.s3.amazonaws.com/adidas-poster1.png"/>
         </a>
     </div>
     <div class="grid-item">
         <a href="/user/shop.php?brand=15">
-            <img src="../assets/image/logo/adidas-poster1.png" alt="adidas">
+            <img src="https://yunyuns3.s3.amazonaws.com/nike-poster.jpg"/>"
         </a>
     </div>
 </div>
