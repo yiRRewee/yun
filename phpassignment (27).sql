@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `phpassignment`
 --
-CREATE DATABASE IF NOT EXISTS `phpassignment` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `phpassignment`;
+CREATE DATABASE IF NOT EXISTS `yun` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `yun`;
 
 -- --------------------------------------------------------
 
